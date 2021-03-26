@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karvalakki</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NavigationBar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Karvalakki Oy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Tietopankki</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Yhteystiedot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinus.html">Liity jäseneksi</a>
+                    </li>
+                    <button type="button" class="btn btn-dark">Kirjaudu sisään</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Kysymys&Vastaus-palsta -->
+    <main>
+        <div class="accordion" id="myAccordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseOne">Työsopimuksen tekeminen >></button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <table class="table table-striped table-hover">
+                            <tbody>
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                                        Pitääkö työsopimus tehdä kirjallisesti? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample1">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Laki ei edellytä työsopimukselta kirjallista muotoa. Suullinen työsopimus on siten yhtä pätevä kuin kirjallinenkin. On kuitenkin suositeltavaa tehdä työsopimus kirjallisessa muodossa. 
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                                        Mikä on koeajan enimmäispituus? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample2">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Lain mukaan koeajan enimmäispituus on 6 kuukautta. Alalla sovellettavassa työehtosopimuksessa voi kuitenkin olla koeaikaa koskevia määräyksiä. Suositeltavaa on tarkistaa kyseiset määräykset omasta työehtosopimuksesta.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                                        Minkä verran työntekijälle pitää vähintään maksaa palkkaa? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample3">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Työntekijän vähimmäispalkka määräytyy alalla sovellettavan työehtosopimuksen mukaan. Näin ollen vähimmäispalkka tulee katsoa omasta työehtosopimuksesta. Mikäli alalla ei ole työehtosopimusta, työntekijälle maksettavan palkan tulee olla kohtuullinen tehtävään työhön nähden.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+                                
+                            </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo">Työaika >></button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <table class="table table-striped table-hover">
+                            <tbody>
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+                                        Mitä tarkoittavat lisätyö ja ylityö? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample4">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Lisätyötä on työsopimuksessa sovitun viikkotyöajan ylittävä työ 40:een viikkotuntiin saakka. Ylityötä puolestaan on päivässä 8 tuntia ja viikossa 40 tuntia ylittävä työ.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+                                        Työntekijä lähtee aamulla kotoaan suoraan asiakkaalle. Pitääkö hänelle maksaa palkkaa matka-ajalta? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample5">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Matka-aikaa ei lähtökohtaisesti katsota työajaksi ellei se samalla ole osa työsuoritusta. Jos työntekijän varsinaiset työtehtävät alkavat vasta asiakkaan luota, työntekijälle ei tarvitse maksaa palkkaa matkaan käytetyltä ajalta.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
+                                        Onko työntekijän lounastauko palkallista aikaa? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample6">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Lounastauko ei lähtökohtaisesti ole palkallista aikaa, mikäli työntekijä voi vapaasti poistua työntekemispaikalta lounastauon ajaksi. Alalla sovellettavassa työehtosopimuksessa voi kuitenkin olla lounastaukoa koskevia määräyksiä, jotka on suositeltavaa tarkistaa.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+                                
+                            </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseThree">Vuosiloma >></button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <table class="table table-striped table-hover">
+                            <tbody>
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+                                        Ansaitseeko työntekijä uutta vuosilomaa pidettävän vuosiloman ajalta? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample7">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Vuosilomaa kertyy siltä ajalta, jolta työnantaja on velvollinen maksamaan työntekijälle palkkaa. Koska pidettävän vuosiloman ajalta maksetaan vuosilomapalkkaa, siltä kertyy uutta vuosilomaa.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">
+                                        Kuluttaako jouluaatto vuosilomaa? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample8">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Ei kuluta. Sunnuntait, kirkolliset juhlapäivät, itsenäisyyspäivä, jouluaatto, juhannusaatto, pääsiäislauantai ja vapunpäivä eivät kuluta vuosilomaa.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample9" aria-expanded="false" aria-controls="collapseExample9">
+                                        Ansaitseeko työntekijä kokolomautuksen ajalta vuosilomaa? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample9">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Lomautusaikaa pidetään työssäolon veroisena aikana enintään 30 työpäivää kerrallaan. Toisin sanoen lomautuksen ensimmäiset 30 työpäivää ovat sellaista aikaa, jolta työntekijä ansaitsee normaalisti vuosilomaa. 
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+                                
+                            </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseFour">Lomauttaminen >></button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <table class="table table-striped table-hover">
+                            <tbody>
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample10" aria-expanded="false" aria-controls="collapseExample10">
+                                        Voiko työntekijää lomauttaa irtisanomisajalla? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample10">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Ei voi. Työnantaja ei voi kiertää irtisanomisajan palkanmaksuvelvollisuuttaan lomauttamalla työntekijän irtisanomisajaksi.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample11" aria-expanded="false" aria-controls="collapseExample11">
+                                        Voiko työntekijää lomauttaa kurinpidollisena toimenpiteenä? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample11">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Ei voi. Lomautuksen tulee perustua tuotannollisiin ja tuotannollisiin syihin. 
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample12" aria-expanded="false" aria-controls="collapseExample12">
+                                        Työntekijä on ollut lomautettuna yli 200 päivää. Mitä tulee huomioida? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample12">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Lomautuksen kestettyä yhdenjaksoisesti yli 200 päivää työntekijällä on oikeus irtisanoa työsuhteensa päättymään välittömästi ja saada korvauksena irtisanomisajan palkkansa ikään kuin työnantaja olisi irtisanonut työsuhteen. Toisin sanoen korvauksen määrä lasketaan työnantajan noudatettavan irtisanomisajan mukaan.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+                                
+                            </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                        <button type="button" class="btn collapsed" data-toggle="collapse" data-target="#collapseFive">Työsuhteen päättäminen >></button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#myAccordion">
+                    <div class="card-body">
+                        <table class="table table-striped table-hover">
+                            <tbody>
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample13" aria-expanded="false" aria-controls="collapseExample13">
+                                        Voiko työsuhteen irtisanoa syrjivillä perusteilla? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample13">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Ei voi. Työntekijää ei voi irtisanoa syrjivillä perusteilla. Syrjiviä perusteita ovat muun muassa uskonto, ihonväri, ikä tai sukupuoli.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample14" aria-expanded="false" aria-controls="collapseExample14">
+                                        Voiko myöhästymisestä antaa varoituksen? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample14">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Kyllä voi. 
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+
+                                <tr>
+                                <th scope="row"></th>
+                                <td>
+                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample15" aria-expanded="false" aria-controls="collapseExample15">
+                                        Tarvitseeko koeaikapurkua perustella? >>
+                                    </button>
+                                    <div class="collapse" id="collapseExample15">
+                                    <div class="card card-body" style="margin-top: 1rem;">
+                                        Laki ei varsinaisesti edellytä koeaikapurun perustelemista. Täyttääkseen purkutilaisuuteen liittyvän kuulemisvelvoitteen työnantajan on kuitenkin varauduttava tarvittaessa selventämään työntekijälle koeaikapurun taustaa.
+                                    </div>
+                                    </div>
+                                </td>
+                                </tr>
+                                
+                            </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Yhteystiedot</h5>
+                    <hr class="light">
+                    <p>040-1234567</p>
+                    <p>email@email.com</p>
+                    <p>Keskuskatu 1</p>
+                    <p>00100 Helsinki</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Seuraa meitä</h5>
+                    <hr class="light">
+                    <button type="button" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></button> 
+                    <button type="button" class="btn btn-social-icon btn-youtube"><i class="fa fa-youtube"></i></button> 
+                    <button type="button" class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></button>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Lisätietoa</h5>
+                    <hr class="light">
+                    <div><a href="#">Tietosuojaseloste</a></div>
+                    <br>
+                    <div><a href="#">Jotain tietoa</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

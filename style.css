@@ -1,0 +1,372 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar-brand {
+  size: 1rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+
+.btn-facebook1 {
+  background-color: #405D9D;
+  color: #fff;
+}
+
+.btn.btn-social-icon {
+  width: 50px;
+  height: 50px;
+  padding: 0
+}
+
+.btn-facebook {
+  background: #3b579d;
+  color: #ffffff
+}
+
+.btn-youtube {
+  background: #e52d27;
+  color: #ffffff
+}
+
+.btn-linkedin {
+  background: #0177b5;
+  color: #ffffff
+}
+
+.col-md-3 {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+.kortti {
+  background-image: linear-gradient(to right top, #f8f9fa, #71b8a3);
+  box-shadow: 5px 10px 8px #888888;
+  color:#000000;
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #7dbdaa;
+}
+
+.kortti:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.card-title {
+  padding-bottom: 2rem;
+}
+
+.row {
+  margin-top: 40px;
+  padding: 0 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.panel-heading span {
+  margin-top: -20px;
+  font-size: 15px;
+}
+
+.accordion {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+  .column,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.cover img {
+  height: 100%;
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
+}
+
+.big-circle {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.5;
+  height: 80%;
+}
+
+.mid-circle {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  z-index: -1;
+  height: 60%;
+  opacity: 0.4;
+}
+
+.small-circle {
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+  }
+
+  .introduction {
+    margin-top: 5vh;
+    text-emphasis: center;
+  }
+
+  .intro-text h1 {
+    font-size: 30px;
+  }
+
+  .intro-text p {
+    font-size: 18px;
+  }
+
+  .cta {
+    padding: 10px 0px 0px 0px;
+  }
+
+  .laptop-select {
+    bottom: 5%;
+    right: 50%;
+    width: 50%;
+    transform: translate(50%, 5%);
+  }
+
+  .cover img {
+    height: 80%;
+  }
+
+  .small-circle,
+  .mid-circle,
+  .big-circle {
+    opacity: 0.2;
+  }
+}
+
+.laptop-select {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 20%;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.cta {
+  padding: 50px 0px 0px 0px;
+}
+
+.cta-select {
+  border: 2px solid #00A170;
+  background: transparent;
+  color: #00A170;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.cta-add {
+  background: #00A170;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  color: white;
+  margin: 30px 0px 0px 30px;
+  border-radius: 5px;
+}
+
+.cover {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+
+.cover img {
+  height: 100%;
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
+}
+
+.presentation {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.introduction {
+  flex: 1;
+}
+
+.intro-text h1 {
+  font-size: 44px;
+  font-weight: 500;
+  background: linear-gradient(to right, #494964, #6f6f89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-text p {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #585772;
+}
+
+
+
+
+
+
+
